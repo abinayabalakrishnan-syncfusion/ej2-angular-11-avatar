@@ -1,27 +1,65 @@
 # Angular11AvatarApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+**Repository Description**  
+This repository contains an Angular 11 application generated using Angular CLI, providing a standard project structure and development workflow for building and running an Angular application.
 
-## Development server
+This project was created with Angular CLI version 11.2.3 and serves as a basic setup for developing, building, and testing an Angular application.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project Overview
+The purpose of this project is to demonstrate a standard Angular CLI–generated application configuration. It provides commonly used development commands for running a development server, generating components, building the application, and executing tests.
 
-## Code scaffolding
+## Features
+- Angular 11 project setup using Angular CLI  
+- Live reload during development  
+- Preconfigured build and testing workflows  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
+- Angular 11  
+- Angular CLI 11.2.3  
+- Karma (unit testing)  
+- Protractor (end‑to‑end testing)
 
-## Build
+## Prerequisites
+- Node.js  
+- Angular CLI 11.x  
+- A modern web browser  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation
 
-## Running unit tests
+### Clone the repository
+```bash
+git clone https://github.com/SyncfusionExamples/ej2-angular-11-avatar.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Development Server
+Run the following command to start the development server:
+```bash
+ng serve
+```
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+### Code Scaffolding
+Generate new components or other Angular building blocks using:
+```bash
+ng generate component component-name
+```
+You can also generate directives, pipes, services, classes, guards, interfaces, enums, and modules.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Build
+Run the following command to build the project:
+```bash
+ng build
+```
+The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
-## Further help
+### Testing
+- **Unit tests:** Run ng test to execute unit tests via Karma.
+- **End‑to‑end tests:** Run ng e2e to execute end‑to‑end tests via Protractor.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Troubleshooting
+- Ensure Node.js and Angular CLI versions are compatible.
+- Restart the development server if changes are not reflected.
+- Check the browser console for runtime errors.
+
+## Support
+For additional Angular CLI help, run ng help or refer to the Angular CLI documentation.
